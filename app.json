@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "CELESTIAL",
+    "slug": "CELESTIAL",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconImage.png",
+    "splash": {
+      "image": "./assets/splashImage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A0023"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/androidImage.png",
+        "backgroundColor": "#1A0023"
+      }
+    },
+    "web": {
+      "favicon": "./assets/faviconWeb.png"
+    }
+  }
+}
